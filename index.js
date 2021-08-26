@@ -4,7 +4,7 @@ const { randomBytes } = require('crypto');
 const app = express();
 app.use(express.json());
 
-const post = {};
+const posts = {};
 
 app.get('/posts', (req, res) => {
 	res.send(posts);
